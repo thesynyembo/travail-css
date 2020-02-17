@@ -6,13 +6,11 @@ body {
 h1,h2,h3{
 	font-family: 'Baskervville', serif;
 }
-h3,a,h2
-{color:red;
-font-weight:bolder;
+h3,a,h2{
+	color:red;
+	font-weight:bolder;
 }
 h3{
-	font-size:20px;
-	font-weight:bolder;
 	font-size: 25px;
 }
 h1{
@@ -30,9 +28,10 @@ th{
 }
 table{
 	border-collapse: collapse;
+	width: 100%;
 }
 tr {
-background:#c8c8c8;
+	background:#c8c8c8;
 }
 tr:hover {
 	background-color:#999999;
@@ -40,7 +39,7 @@ tr:hover {
 }
 figure{	
 	background:#333333;
-	border:3px solid red;
+	border:2px solid red;
 	width: 100%;
 	height: 800px;
 	margin-left: 0;
@@ -51,12 +50,13 @@ figure{
 
 figcaption{
 	position :relative;
-	font-weight: bold;
 	color:white;
 	text-align:center;
 	font-style: italic;
-	top:60px;
+	top:20px;
 	font-size:22px ;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 img{
 	width:95%;
